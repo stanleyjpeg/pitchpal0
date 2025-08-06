@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Clerk } from "@clerk/clerk-sdk-node";
+import { ClerkClient } from "@clerk/clerk-sdk-node";
 
 const clerk = Clerk({ apiKey: process.env.CLERK_SECRET_KEY });
 
