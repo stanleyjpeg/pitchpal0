@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pitchpal.ai/sitemap.xml 
