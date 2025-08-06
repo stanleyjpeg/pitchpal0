@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { ClerkClient } from "@clerk/clerk-sdk-node";
 
-const clerk = Clerk({ apiKey: process.env.CLERK_SECRET_KEY });
+const clerk = new ClerkClient({ apiKey: process.env.CLERK_SECRET_KEY });
 
 export async function POST(req: NextRequest) {
   try {
